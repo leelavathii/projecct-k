@@ -1,0 +1,255 @@
+Multi-OEM/Retail Project Version : CY21M10D01-R140.0.BL - BaseLine [MDL Forum ONLY] 
+ 
+The extracted OEM's folder structure appears correct. 
+ 
+Installed DotNet Framework{s} : v1.1.4322, v2.0.50727, v3.0.30729.4926, v3.5.30729.4926, v4.0.30319, v4.8.x or later {Rev:528372} 
+Installed Powershell Versions : 1.0, 2.0, 3.0, 4.0, 5.0, 5.1 
+PS Scripted Diagnostics       : Unrestricted 
+Unicode Mode In Operation     : Yes {Original Code 437} 
+Protected Main Project Files  : Yes - SetupComplete and/or FirstLogOn scripts detected. 
+Using 'MRPConfig.ini' File    : No - Using default settings. 
+ 
+MRP Extra Debug Logging Mode  : Enabled  
+W1x TitleBar Color            : Disabled - Default Color of theme will be used. 
+Highlight Colorization        : Disabled - Default Color of theme will be used. 
+Change Lock/Login Screen's    : Enabled  - Screen's will be replaced as defined by user's option. 
+Confirm File Delete           : Disabled - User is not notified when a file/folder is being deleted. {Win8.x/10 Kernels} 
+Show 'ThisPC' On Desktop      : Disabled - The icon is not displayed on the Desktop. 
+Project Uses Silent Operation : Disabled - Information screens will be shown. 
+MRP Deletes 'Scripts' Folder  : Enabled  - This will delete ALL the contents of the Scripts folder when MRP ends. 
+ 
+[START] Primary/Branding script routines begin. 
+[OSINF] ============================================================= 
+[OSINF] =================[ Detected OS Information ]================= 
+[OSINF] ============================================================= 
+[OSINF] OS Install Date/Time  : 04/07/2023 {UTC} -- 11:33am 
+[OSINF] Installation Type     : Client {Non Server} 
+[OSINF] OS Media Boot Method  : Clean 
+[OSINF] HyperVisor Detected   : No 
+[OSINF] Domain Detected       : No 
+[OSINF] Full Name             : Microsoft Windows 10 Pro 
+[OSINF] Stock Keeping Unit #  : 48 
+[OSINF] Version {Product}     : Windows 10 Pro   
+[OSINF] Version {SKU}         : Windows Pro {48} 
+[OSINF] Edition {Registry}    : Professional 
+[OSINF] Edition {Composition} : Enterprise 
+[OSINF] Edition {Type}        : General 
+[OSINF] Edition Qfe Value     : 1466 {0x5ba} 
+[OSINF] Architecture          : 64 Bit {AR:1} 
+[OSINF] Release Identifier    : 2009 
+[OSINF] Short Display Version : 21H2 
+[OSINF] Build Information     : 19041.1.amd64fre.vb_release.191206-1406 
+[OSINF] Internal Build Number : 19044 
+[OSINF] Experience Pack #     : 120.2212.3920.0 
+[OSINF] Branch Code Name      : Vibranium 
+[OSINF] Branch Reference      : vb_release 
+[OSINF] Reference Version     : 10.0.19041.1 
+[OSINF] ProductID Reference   : 3311 
+[OSINF] Update Build Revision : 1466 
+[OSINF] Base Build Rev Number : 1 {0x1h} 
+[OSINF] General UILang/Code   : en-US / 1033 {0x409h} 
+[OSINF] General Locale        : English - United States 
+[OSINF] GeoID Nation ISO Loc  : United States [244] 
+[OSINF] Time Zone Data        : Pacific Standard Time 
+[OSINF] Daylight Saving Mode  : Yes 
+[OSINF] Trusted Platform Modl : Enabled 
+[OSINF] Trusted Platform Modl : Active/Operative 
+[OSINF] TPM Speculative Ver{s}:  {1.2}1.2, 2, 3 
+[OSINF] TPM Maker Ver{s}      : 6.43 
+[OSINF] TPM Maker ID Text     : IFX 
+[OSINF] TPM 2.x Bypass Check  : No 
+[OSINF] SecureBoot Bypass     : No 
+[OSINF] Low RAM Bypass Check  : No 
+[OSINF] Allow W11 WU Upgrades : No 
+[MBINF] ============================================================= 
+[MBINF] =================[ Motherboard Information ]================= 
+[MBINF] ============================================================= 
+[MBINF] #01 CS Product Name   : [HP EliteBook 840 G3]  
+[MBINF] #02 CS Model Name     : [HP EliteBook 840 G3]  
+[MBINF] #03 CS Base Product   : [8079]  
+[MBINF] #04 CS Vendor Name    : [HP]  
+[MBINF] #05 CS System Name    : [HP]  
+[MBINF] #06 Baseboard Name    : [HP]  
+[MBINF] #08 BIOS or SLIC ID 1 : [HPQOEM - 0]  
+[MBINF] #09 SLIC Information  : [v2.1 - SLIC table with marker present]  
+[MBINF] #09 SLIC Detect Plan  : [G4] [OA2T:1]2.1  
+[MBINF] #11 MSDM Information  : [MSDM Table OK, 'HP' Brand Detected]  
+[MBINF] Chassis Type          : [Notebook {10}]  
+[MBINF] PC System Type        : [Mobile {0x2}]  
+[BDINF] ============================================================= 
+[BDINF] ==================[ Main BIOS Information ]================== 
+[BDINF] ============================================================= 
+[BDINF] Manufacturer          : [HP]  
+[BDINF] Version               : [N75 Ver. 01.52]  
+[BDINF] Release Date          : [04/20/2021]  
+[MPINF] ============================================================= 
+[MPINF] ===================[ Processor Information ]================= 
+[MPINF] ============================================================= 
+[MPINF] Full Name             : [Intel{R} Core{TM} i5-6300U CPU @ 2.40GHz]  
+[MPINF] Description           : [Intel64 Family 6 Model 78 Stepping 3]  
+[MPINF] Architecture          : [32/64 Bit]  
+[MPINF] Max Clock Speed       : [2.5 GHz] {Rounded Value}  
+[MPINF] Manufacturer ID Data  : [GenuineIntel]  
+[MPINF] CPUID Signature       : [0406E3]  
+[MPINF] Revision Number       : [4e03]  
+[MPINF] Sockets/CPU's Present : [1]  
+[MPINF] Cores/Threads         : [2] / [4]   
+[MPINF] VT Firmware Mode      : [Disabled]  
+[MMINF] ============================================================= 
+[MMINF] ====================[ Memory Information ]=================== 
+[MMINF] ============================================================= 
+[MMINF] Total Physical        : 7.88 GiB  
+[MMINF] Used During Setup     : 623.36 MiB  
+[MMINF] Available             : 7.27 GiB [92.28%] 
+[MMINF] Type Number           : 3  
+[MMINF] Design Type           : DDR4 {26}  
+[MMINF] Category              : Non-ECC  
+[MMINF] Max Board Sockets     : 2 - May vary depending on the Motherboard's original test design/revision.  
+[MMINF] Max Capacity          : 32768 MiB - Depends on how the Chipset's memory array handles this information.  
+[MMINF] Max Per Socket/Slot   : 16384 MiB {Approx Value}  
+[MELSP] ============================================================= 
+[MELSP] ===============[ Intel: Meltdown/Spectre Data ]============== 
+[MELSP] ============================================================= 
+[MELSP] CPU Performance Rating: Good 
+[MELSP] This system appears to be protected against Meltdown and most of the current Spectre variants. 
+[MELSP] This CPU supports low-overhead protection. 
+[MELSP] Checked using 'InSpectre' from Gibson Research: https://www.grc.com/inspectre.htm 
+[SUOEA] ============================================================= 
+[SUOEA] ===[ Show Other User Options Applied/Enabled Or Disabled ]=== 
+[SUOEA] ============================================================= 
+[SUEOA] The 'MRPConfig.ini' file was not detected, defaults used. 
+[REPDR] ====================================================== 
+[REPDR] ===[ Retail.txt/Ei.cfg/PID.txt Detection Routines ]=== 
+[REPDR] ====================================================== 
+[REPDR] Note: Some results may be shown as 'not detected' if the install medium was removed during OS installation. 
+[REPDR] The 'Retail.txt' file was not detected within the 'Scripts' folder. 
+[REPDR] The 'ei.cfg' file was detected within the 'E:\sources' folder. [DV]  
+[REPDR] The 'PID.txt' file was not detected.  
+[CKDMI] ============================================================= 
+[CKDMI] ===[ Querying DMI For OEM Manufacturer Brand Information ]=== 
+[CKDMI] ============================================================= 
+[CKDCF] Detected some possible DMI conflicts. 
+[CKDCF] Possible [HP EliteBook 840 G3] conflict, re-checked DMI [#01] was resolved as [HP].  
+[CKDCF] DMI query routine has completed. 
+[DCTPR] ============================================= 
+[DCTPR] ===[ DMI or Custom Theme Data Processing ]=== 
+[DCTPR] ============================================= 
+[DCTPR] HP [#01] Manufacturer was detected for automated theme/branding. 
+[DCTPR] ======================================= 
+[SYSPD] ======================================= 
+[SYSPD] ===[ Model Name Processing Routine ]=== 
+[SYSPD] ======================================= 
+[SETMN] BIOS defined "HP EliteBook 840 G3" has been applied for the Computer's 'Model' Name. {Validated}
+[TBPRT] =================================== 
+[TBPRT] ===[ Theme Processing Routines ]=== 
+[TBPRT] =================================== 
+[USRFT] The User's specified theme was not defined.  
+[TBTMS] =========================================== 
+[TBTMS] ===[ Brand Transfer Management Routine ]=== 
+[TBTMS] =========================================== 
+[RMXML] The OOBE.xml file has been processed.  
+[WPCHK] Wallpaper.jpg was transferred. 
+[BGDFC] The brand's 'Backgrounds' folder was created. 
+[BGDFC] The brand's 'BackgroundDefault.jpg' file was generated from the 'Wallpaper.jpg' image. 
+[W8XAP] =========================================================== 
+[W8XAP] ===[ Primary User Account Picture {BMP/PNG} Management ]=== 
+[W8XAP] =========================================================== 
+[UBREP] The primary 'User' account picture{s} was replaced with the theme's 'User810' image file. 
+[WXAP2] ============================================================ 
+[WXAP2] ===[ Additional User Account Picture's {PNG} Management ]=== 
+[WXAP2] ============================================================ 
+[UPREP] User-32.png was replaced.  
+[UPREP] User-40.png was replaced. 
+[UPREP] User-48.png was replaced.  
+[UPREP] User-192.png was replaced.  
+[X8LLR] ==================================== 
+[X8LLR] ===[ Lock\Log-On Screen Routine ]=== 
+[X8LLR] ==================================== 
+[WX8LS] Lock Screen 'img100' was replaced. Original renamed as img0100. 
+[WX8LO] The 'Log-On' Background 'img105' was replaced. Original renamed as img0105. 
+[OTFTR] ============================================ 
+[OTFTR] ===[ Brand/Theme Files Transfer Routine ]=== 
+[OTFTR] ============================================ 
+[OTFTR] The OS branding info theme folder was created. 
+[EWBSC] Additional found 'Wallpaper' file{s} was copied over for use as 'Desktop' backgrounds or a slideshow later, if required. 
+[OTFTR] The theme's branding files have been transferred. 
+[ATREP] The original 'Aero.theme' has been backed up and replaced. 
+[ICTAO] Registry sections for 'InstallTheme' and 'CurrentTheme' was set to '$OEM$.theme'. 
+[ATHBA] HP OEM brand theme was applied.  
+[SCFLD] ==================================================== 
+[SCFLD] ===[ SetupComplete/FirstLogOn Scripts Detection ]=== 
+[SCFLD] ==================================================== 
+[SCDET] Note: The 'SetupComplete.cmd' file  was detected. 
+[NOTES] Malfunction of the Project/Theme may happen if deletion of the 'Scripts' folder, or use of a forced Shutdown/Reboot command, is done within this file. 
+[BSHCS] ============================================ 
+[BSHCS] ===[ Primary/Branding Script Completion ]=== 
+[BSHCS] ============================================ 
+[BSHCS] The Primary/Branding script has completed, SetupComplete.cmd script will now be run via Windows Setup. 
+[BSHCS] ============================================ 
+[RBOOT] -----------------------------[ OOBE Reboot via Windows Setup ]----------------------------- 
+[ADMAN] =================================================== 
+[ADMAN] ============[ Add-On Manager: Started ]============ 
+[ADMAN] =================================================== 
+[TFFIB] The theme's registry fix was applied. Reboot is required after setup completed. 
+[SATOU] =================================================== 
+[SATOU] ====[ User Options that have now been applied ]==== 
+[SATOU] =================================================== 
+[SCADV] The shortcut's arrow design is set to: OS Default  
+[TBARV] Taskbar view is set to Default. {Always combine, hide labels}  
+[MMTBV] Multi Taskbar View: Always combine, hide labels. {Only operative when multiple displays are in use}  
+[MMTBM] Show Taskbar button on: All Taskbars. {Only operative when multiple displays are in use}  
+[CMSDM] =============================================== 
+[CMSDM] ===[ Querying BIOS for any MSDM Table Data ]=== 
+[CMSDM] =============================================== 
+[CMSDM] Edition Installed {E}  : Professional {3311}  
+[CMSDM] MSDM Key Applied       : Yes  
+[CMSDM] Detected Key Group ID  : 1801   
+[CMSDM] Key Edition ID         : Professional  
+[CMSDM] Key Information        : Win 8 Professional  
+[CMSDM] Key Data {Partial}     : xxxxx-xxxxx-xxxxx-xxxxx-X4PMP  
+[CMSDM] Detection Routine Used : 1  
+[CMSDM] MSDM Brand Name        : HPQOEM  
+[CMSDM] Reason Status          : MSDM Key will be applied for the currently installed OS Edition  
+[CMSDM] The detected MSDM Key can be used for the Edition currently installed, saved and applied. 
+[CMSDM] The MSDM Key details have been saved to 'C:\MSDM-Key.txt' 
+[USR1X] ============================================================================== 
+[USR1X] ===[ Colorization, User Account Pictures and Remove DefaultUser0 Routines ]=== 
+[USR1X] ============================================================================== 
+[USRAC] The 'Enhanced' Log-On screen registry entry has been applied. 
+[USRAC] User Account Picture's registry entries applied.  
+[USRRO] Windows 'Registered Owner' {Winver} registry entry was corrected and set to the primary username. 
+[USRD0] The 'defaultuser0' account was present, removal process has started. 
+[RDUPM] Removal of the 'defaultuser0' account was successful. 
+[AMBPS] ================================================================= 
+[AMBPS] ===[ Check BIOS/Boot Mode, OS Partition Type/Controller Mode ]=== 
+[AMBPS] ================================================================= 
+[AMBPS] BIOS/Boot Mode  : {W} UEFI 
+[AMBPS] Partition Type  : {W} GPT 
+[AMBPS] Secure Boot     : {Q} Enabled 
+[AMHDC] Controller Mode : {S} NVMe/PCIe 
+[CHKLS] ============================================= 
+[CHKLS] ===[ Detecting License\Activation Status ]=== 
+[CHKLS] ============================================= 
+[CHKLS] License/Activation Status  : Notification 
+[CHKLS] License Channel Status     : GVLK {PKC} 
+[CHKLS] License Status Reason Code : 0xC004F056 
+[CHKLS] The Volume Product detected could not be activated using the Key Management Service {KMS}. 
+[CHKLS] This maybe because it is a default MAK/VLK or other invalid key which cannot be used for Activation. 
+[ADMAN] =============================== 
+[ADMAN] ===[ Finalization Routines ]=== 
+[ADMAN] =============================== 
+[CLNUP] Clean Up Routine Processed. 
+[ADMAN] =================================== 
+[ADMAN] ===[ Add-On Manager: Completed ]=== 
+[ADMAN] =================================== 
+[ENDAM] ----------------------------------------------------------------------------- 
+[ENDAM] ========================================================================================= 
+[ENDAM] =                                                                                       = 
+[ENDAM] = Please Note: As User options, UserTweaks or Wintel scripts have been detected it is   = 
+[ENDAM] =              required for a reboot cycle to allow these options/tweaks to take full   = 
+[ENDAM] =              effect. This also allows any Theme related processes to complete.        = 
+[ENDAM] =                                                                                       = 
+[ENDAM] ========================================================================================= 
+[ENDED] 
+The Multi-OEM/Retail Project has completed. 
+ 
